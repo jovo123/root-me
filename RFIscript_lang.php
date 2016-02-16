@@ -3,6 +3,6 @@
         //$command = $_GET['cmd'];
         //echo $command."\n";
         $yay = file_get_contents("index.php");
-        echo "?>".$yay;
+        echo base64_encode($yay);
         //show_source(__FILE__);
 ?>
